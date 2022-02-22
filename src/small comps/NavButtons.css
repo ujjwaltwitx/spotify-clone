@@ -1,0 +1,16 @@
+.navButtons{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: black;
+    /* box-shadow: 5px 5px 30px 1px black; */
+}
+
+.navButtons:hover{
+    box-shadow: 5px 5px 30px 1px black;
+    transition-duration: 500ms;
+
+}

@@ -1,0 +1,32 @@
+.mainBodyHeader{
+    
+    position: sticky;
+    top: 10px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+.header_buttons{
+    display: flex;
+    column-gap: 10px;
+    height: fit-content;
+}
+
+.header_account{
+    font-size: 14px;
+    column-gap: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header_account > div{
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 0px 20px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 25px;
+}

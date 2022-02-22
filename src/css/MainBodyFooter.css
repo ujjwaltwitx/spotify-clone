@@ -1,0 +1,62 @@
+.mainBodyFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  position: sticky;
+  bottom: 0px;
+  background-color: rgb(26, 24, 24);
+}
+
+.mainBodyFooter_songInfo {
+  flex: 0.2;
+  column-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainBodyFooter_player {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  flex: 0.4;
+  align-items: center;
+}
+
+.mainBodyFooter_devices {
+  flex: 0.2;
+  column-gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.line{
+    width: 500px;
+    border: 2px solid white;
+}
+
+.mainBodyFooter_player > div {
+    height: fit-content;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+h5 {
+  margin: 0px;
+}
+h6 {
+  margin: 0px;
+}
+
+hr {
+  width: 100%;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}

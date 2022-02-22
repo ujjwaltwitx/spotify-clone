@@ -1,0 +1,24 @@
+.eachPlaylistCard {
+  align-items: center;
+  min-width: 300px;
+  display: flex;
+  width: 30%;
+  background-color: black;
+  border-radius: 6px;
+  height: fit-content;
+  column-gap: 25px;
+  /* box-shadow: 0px 20px 50px 0px rgb(29, 28, 28); */
+}
+
+.eachPlaylistCard:hover{
+    box-shadow: 0px 20px 50px 0px rgb(29, 28, 28);
+    transition-duration: 200ms;
+}
+
+.eachPlaylistCard > img {
+  height: 75px;
+  width: 75px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  object-fit: cover;
+}
