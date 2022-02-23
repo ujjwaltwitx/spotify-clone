@@ -11,7 +11,7 @@
 }
 
 .podcastCard:hover{
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(61, 61, 61);
     transition-duration: 800ms;
 }
 

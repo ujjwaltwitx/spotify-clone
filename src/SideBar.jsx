@@ -30,7 +30,6 @@ function SideBar(){
                 <p>Chill Music</p>
             </div>
         </div>
-        
     </div>
 }
 

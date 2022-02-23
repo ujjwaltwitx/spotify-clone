@@ -4,6 +4,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShuffleIcon from '@mui/icons-material/Shuffle';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import { AddToQueue, AllInclusive, PlayCircle, QueueMusic, SkipNext, VolumeUp } from '@mui/icons-material';
+import { Slider } from '@mui/material';
 
 function MainBodyFooter() {
     return (
@@ -26,7 +27,30 @@ function MainBodyFooter() {
                 </div>
                 <div>
                     <p>1:20</p>
-                    <div className='line'></div>
+                    <div style={{ width: 500 }}><Slider size='small' sx={{
+                        color: 'rgba(0,0,0,0.87)',
+                        height: 4,
+                        '& .MuiSlider-thumb': {
+                            width: 15,
+                            height: 15,
+                            color: 'green',
+                            transition: '0.3s cubic-bezier(.47,1.64,.41,.8)',
+                            '&:before': {
+                                boxShadow: '0 2px 12px 0 rgba(0,0,0,0.4)',
+                            },
+                            '&:hover, &.Mui-focusVisible': {
+                                boxShadow: '0px 0px 0px 8px rgb(0 0 0 / 16%)',
+                            },
+                            '&.Mui-active': {
+                                width: 20,
+                                height: 20,
+                            },
+                        },
+                        '& .MuiSlider-rail': {
+                            opacity: 0.28,
+                        },
+                    }} />
+                    </div>
                     <p>4:50</p>
                 </div>
             </div>
@@ -34,6 +58,7 @@ function MainBodyFooter() {
                 <QueueMusic />
                 <AddToQueue />
                 <VolumeUp />
+                <Slider size='small' />
             </div>
 
         </div>
